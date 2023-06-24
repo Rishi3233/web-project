@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Foodie !</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            
+            list-style: none;
+           background-image: url("https://drive.google.com/uc?export=view&id=1atXyj7V5ZB14aRbHcgCvU4FUqJUGggBB");
+         
+            overflow: hidden;
+           
+        }
+        li{
+            float: left;
+        }
+        li a{
+            
+            display: inline-block;
+            color:yellow;
+            text-shadow: black,red;
+            text-decoration: none;
+            padding: 14px 16px;
+            text-align: center;
+            
+        }
+        li a:hover{
+            background-color: bisque;
+            color: black;
+        }
+        .active{
+            background-color: goldenrod;
+            color: black;
+        }
+
+  
+        li input{
+        
+            width: 165px;
+            height: 21px;
+        }
+        .input{
+                float: right;
+            padding: 14px 16px;
+            
+        }
+        input[type=search]{
+            border-radius: 3px;
+        }
+        input[type=submit]{
+            border-radius: 6px;
+            cursor: pointer;
+        }
+   
+        .about{
+            /* border: 2px solid gray; */
+            content: "";
+            padding: 8px;
+            color:white;
+            background-image: url("https://drive.google.com/uc?export=view&id=1atXyj7V5ZB14aRbHcgCvU4FUqJUGggBB");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            text-align: center;
+            
+           
+           
+        }
+
+        .column {
+ 
+  float: left;
+  width: 33.3%;
+  
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .column, .about {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+    .on{
+        text-decoration-line: line-through;
+        color: red;
+    }   
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.form{
+    margin: 0px 18px;
+   
+}
+.deliver{
+    text-align: center;
+    
+}
+.deliver img{
+    max-width: 100%;
+}
+.color{
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+}
+    </style>
+</head>
+<body>
+    <header>
+       
+        <ul>
+           
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <p class="input"><input type="search" name="search" id="1" placeholder="search"> <input type="button" value="press"></p>
+            <audio src="dora-dora-763.mp3"  autoplay loop></audio>
+        </ul>
+    </header>
+    <main>
+       
+        <section class="about "><br><br>
+        <h2>Foodie!</h2>
+        
+        <p>Hello, greeting you! this is a new food delivery website in which our supplier give you the best food on your doorstep. And for the New year celebration all the prices of our food items decresed upto 50%. So, why are you waiting hurry up. <b>Order</b>- Go below and fill the your food and required details. THANK YOU! 😃</p>
+        </section><br>
+      
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="https://drive.google.com/uc?export=view&id=1CUNmtiZe4DIWDS-4_62O6Q4Fe6L5GRFI" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Pizza</h2>
+                  <p class="title">Offer</p>
+                  <pre>Price<span class="on"> $45</span> $20</pre>
+                  <p class="color" >r.rajluvkushh11@gmail.com</p>
+                  <p>Contact : 790---- </p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="https://drive.google.com/uc?export=view&id=1GuJvz7kSR9WDPCBAyU5_pY_7Y9pMZa-Q" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Paneer Roll</h2>
+                  <p class="title">Full-on paneer</p>
+                  <pre>Price<span class="on"> $32</span> free</pre>
+                  <p class="color" >r.rajluvkushh11@gmail.com</p>
+                  <p>Contact : 790---- </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=1MCCGtT66i11RAwBdUwvYwmitIWj8y54I" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Burger</h2>
+                    <p class="title">Delicious burger</p>
+                    <pre>Price<span class="on"> $25</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="https://drive.google.com/uc?export=view&id=1mbeqfxVeprl9zG4hJ156e0naWrbPeU8n" alt="John" style="width:100%">
+                <div class="container">
+                  <h2>Chinese momo</h2>
+                  <p class="title">yours fav momo</p>
+                  <pre>Price<span class="on"> $18</span> free</pre>
+                  <p class="color" >example@example.com</p>
+                  <p>Contact : 790---- </p>
+                </div>
+              </div>
+            </div>
+
+       
+
+              <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=1zcDLqvxHIaMdVOQlllHJGlWab2mLtVPT" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Cold Coffee</h2>
+                    <p class="title">Black coffe</p>
+                    <pre>Price<span class="on"> $22</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=1rbeGzC7po9dtwAWg_cjGtxbcFdBAH9-W" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Gift</h2>
+                    <p class="title">New year surprise 🎁</p>
+                    <pre>Price<span class="on"> $65</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=16MO9oK_gh-eq-KL3eAspEwLAfWJcHvPC" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Food</h2>
+                    <p class="title">Special New year food</p>
+                    <pre>Price<span class="on"> $81</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=1PjlCmg2DkaVNSOL9PXDEMwyM2Lto_oZ9" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Trip</h2>
+                    <p class="title"> ✈️ to maldives</p>
+                    <pre>Price<span class="on"> $115</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div> 
+
+               <div class="column">
+                <div class="card">
+                  <img src="https://drive.google.com/uc?export=view&id=10Ht6-kEuEl60FlAR4AIWKv71cg6ChJOf" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Ship Party</h2>
+                    <p class="title">Disco-dance</p>
+                    <pre>Price<span class="on"> $103</span> free</pre>
+                    <p class="color" >r.rajluvkushh11@gmail.com</p>
+                    <p>Contact : 790---- </p>
+                  </div>
+                </div>
+              </div>
+              </div>
+          
+
+          <div class="form">
+            
+                <form onsubmit="sendEmail(); reset(); return false; " >
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."required>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."required>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="email">Email id</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="email" name="email" id="email" placeholder="your email" required>
+                        </div>
+                      </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Country</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="select">Select country</option>
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">India</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Food choice as given up" style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                    </form>
+           
+          </div><br><br>
+          <div class="deliver">
+            <h2>Our Man</h2>
+            <img src="https://drive.google.com/uc?export=view&id=12SoyjGhUOYNLQMGmN-ti_HpRw6up2wNT" alt="">
+            
+                </div>
+                
+    </main>
+
+
+    <footer>
+     Copyright &copy; 2022  || Powered by @rishi
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script>
+       alert("Greeting from Rishi 😃");
+        function sendEmail(){
+            Email.send({
+               Host : "smtp.gmail.com",
+               Username : "rishiweb11@gmail.com",
+               Password : "rishiweb$04",
+               To : 'rishiweb11@gmail.com',
+               From : document.getElementById("email").value,
+               Subject : "Enquiry form",
+               Body : "firstname : " + document.getElementById("fname").value 
+               + "<br> lastname : " + document.getElementById("lname").value
+               + "<br> email : " + document.getElementById("email").value
+               + "<br> country : " + document.getElementById("country").value
+               + "<br> subject : " + document.getElementById("subject").value
+           }).then(
+             message => alert("message sent successfully")
+           );
+        }
+    </script>
+</body>
+</html>

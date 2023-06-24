@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        .container{
+            background-color: burlywood;
+            margin: 40px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+   <div class="container">
+    <form action="">
+   <pre>Name* : <input type="text" placeholder="type your name"required>        Password* : <input type="password" placeholder="password"required></pre> 
+<fieldset>
+    <legend>Gender* </legend>
+    <p>Male <input type="radio" name="gender" id="101">  Female <input type="radio" name="gender" id="102"></p>
+</fieldset>
+<h3>Select fav subject(many option)</h3>
+<label for="phy">
+    <input type="checkbox"value="phy" name="subject"id="101" >Physics
+</label>
+<label for="maths">
+    <input type="checkbox"value="maths" name="subject"id="102" >Mathematics
+</label>
+<label for="chem">
+    <input type="checkbox"value="chem" name="subject"id="103" >Chemestry
+</label>
+  <p>DOB : <input type="date" name="date" id="sec1"></p>
+   <pre>Mobile No.* : <input type="number" name="number" id="number">  tel : <input type="number" name="number" id="number" required></pre>
+   
+   <h5>Select your city</h5>
+
+   <select name="city" id="">
+    <option value="select city">select city</option>
+    <option value="delhi">delhi</option>
+    <option value="nagpur">nagpur</option>
+    <option value="ranchi">ranchi</option>
+   </select>
+   <br>
+   <br>
+   <p>Feedback    <textarea name="feedback" id="101" cols="30" rows="10"></textarea></p>
+   <p>Email : <input type="email" placeholder="email"></p>
+<input type="submit" value="select">
+</div>
+</form>
+</body> 
+</html>

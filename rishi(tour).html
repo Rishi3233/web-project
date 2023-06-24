@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* span {
+        float: left;
+        width: 55px;
+        border-radius: 50%;
+      } */
+      ul {
+        list-style-type: none;
+        background-image: url("https://drive.google.com/uc?export=view&id=1K-DSqk8Qld2LpjooZe_SIna36ox5s6g0");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        
+        padding: 12px;
+        position: sticky;
+        top: 0;
+      }
+      .right{
+        float: right;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 14px;
+        
+      }
+      li {
+        float: left;
+      }
+      a {
+        display: block;
+        /* text-align: center; */
+     
+        color: white;
+        padding: 16px 20px;
+        text-decoration: none;
+      }
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+  
+
+     
+      
+       
+    
+        
+      
+      .air{
+        background-image: url("https://drive.google.com/uc?export=view&id=1ORFykopdHOIgr0aJMKvqhRC9K0Dqa6OK");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* z-index: -1; */
+        overflow: hidden;
+        
+      }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+ background-image: url("https://drive.google.com/uc?export=view&id=1K-DSqk8Qld2LpjooZe_SIna36ox5s6g0");
+ background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: white;
+  margin: 50px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+ .fair{
+ 
+  /* height: auto; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+ }
+ /* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+} */
+
+.fair {
+  float: left;
+
+  width: 50%;
+  /* margin-right: 5px; */
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.fair2{
+   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.fair3 {
+  padding: 0 16px;
+}
+.color{
+  color:blue;
+}
+.on{
+  text-decoration: line-through;
+  color: red;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: inline-block;
+  }
+}
+.bl{
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+.w3{
+  background-color: grey;
+  padding: 12px;
+}
+button{
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+p span .h:hover{
+  color: blue;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+         <!-- <span><img src="img/logo.jpg" alt="" /></span> -->
+        <li><a href="#">Home</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About us</a></li>
+          <p class="right"> <input type="search" name="search" id="101" placeholder="search" required> <input type="button" value="press"></p>
+             <audio  src="https://drive.google.com/uc?export=view&id=18WUkwCpIAI-SU38CgvtAtvSkHAmretvM"  autoplay loop ></audio>
+
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+<div class="air">
+<div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">From</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="current location" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">To</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="destination" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="select">Choose place</option>
+            <option value="new york">New york</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="singapore">Singapore</option>
+            <option value="paris">Paris</option>
+            <option value="maldives">Maldives</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="row">
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=1w6pOD--csyDa7h6EADK6Ut0YBBegAPjC" alt="" width="100%">
+    <div class="fair3">
+      <h2>New York</h2>
+      <p>price per head <span class="on">$242</span>  $150 </p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/MtCMtC50gwY" target="_blank">visit your New York</a>
+
+    </div>
+  </div>
+</div>
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=1PpgLyLkrv-ZEPaokv_sJInYuRo_J3wYk" alt="" width="100%">
+    <div class="fair3">
+      <h2>Australia</h2>
+      <p>price per head <span class="on">$160</span>  $120 </p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/tYfD7teA65w" target="_blank">visit your Australia</a>
+
+    </div>
+  </div>
+</div>
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=1QTZtQzOBgtC6WCT8UZK9nvP1sfu3WQob" alt="" width="100%">
+    <div class="fair3">
+      <h2>Paris</h2>
+      <p>price per head <span class="on">$331</span>  $250 </p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/-vgXqGatxqk" target="_blank">visit your Paris</a>
+
+    </div>
+  </div>
+</div>
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=12IQvGUqtRhtZWEhsLNiEG6mMwvozI2Vx" alt="" width="100%">
+    <div class="fair3">
+      <h2>Canada</h2>
+      <p>price per head <span class="on">$232</span>  $150 </p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/ArR-ctuKraE" target="_blank">visit your Canada</a>
+
+    </div>
+  </div>
+</div>
+
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=1YvQRRV7NYtE_wI_-QWA-RjI8n2JQkljR" alt="" width="100%">
+    <div class="fair3">
+      <h2>Singapore</h2>
+      <p>price per head <span class="on">$440</span>  $180 </p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/aaGJ_fDcceg" target="_blank">visit your Singapore</a>
+
+    </div>
+  </div>
+</div>
+
+<div class="fair">
+  <div class="fair2">
+    <img src="https://drive.google.com/uc?export=view&id=10ArIE32SeQFTZu0P_YVJz3EEcO-VwCAm" alt="" width="100%">
+    <div class="fair3">
+      <h2>Maldives</h2>
+      <p>price per head <span class="on">$340</span>  $110</p>
+      <p>@rishi654656</p>
+      <a class="color" href="https://youtu.be/JXGd7PB4UYY" target="_blank">visit your Maldives</a>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="before">
+  <div class="bl">
+    <h2>Get the best offers first!</h2>
+    <p>Join our newsletter.</p>
+    <label>E-mail</label>
+    <input class="w3-input w3-border" type="text" placeholder="Your Email address" required>
+    <button type="button" class="w3-button w3-red w3-margin-top">Subscribe</button>
+  </div>
+</div>
+
+<div class="w3">
+  <h2>Contact</h2>
+  <p>Let us book your next trip!</p>
+  <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+  <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+  <i class="fa fa-envelope" style="width:30px"> </i>Email: <span class="color">rishi@mail.com</span><br><br>
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name"  name="Name"required></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email"  name="Email" required></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" name="Message" required></p>
+    <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+  </form>
+</div>
+    </main>
+    <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+     <p> copyright &copy;  | welcome to online tour | powered by  @rishitour</p>
+     
+    </footer>
+  </body>
+</html>
